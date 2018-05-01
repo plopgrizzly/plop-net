@@ -39,14 +39,14 @@ enum PacketId {
 	FileUploadRequest = 0xA3, // S -> M
 	FileUploadAccept = 0xA4, // M -> S
 	FileTransferDenied = 0xA5, // M -> S
-	FileTransferData 0xA6, // M <-> S
+	FileTransferData = 0xA6, // M <-> S
 	DatabasePacketClient = 0xA7, // S -> M
 	DatabasePacketServer = 0xA8, // M -> S
 	GamePacketClient = 0xA9, // S -> M
 	GamePacketServer = 0xAA, // M -> S
 	SecureShellPacketClient = 0xAB, // S -> M
 	SecureShellPacketServer = 0xAC, // M -> S
-	ApplicationPacketServer = 0xAD, // S -> M
+	ApplicationPacketClient = 0xAD, // S -> M
 	ApplicationPacketServer = 0xAE, // M -> S
 	WebsiteAction = 0xAF, // S -> M
 	WebsiteUpdate = 0xB0, // M -> S
